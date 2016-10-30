@@ -1,0 +1,18 @@
+{
+  "name": "vendor/generator",
+  "description": "password and realname generator",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dan Flyer",
+      "email": "datus3r@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Vendor\\Generator\\": "src"
+    }
+  },
+  "require": {}
+}
