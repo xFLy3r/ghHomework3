@@ -2,7 +2,13 @@
 
 namespace Vendor\Generator;
 
-class Generator implements GeneratorInterface
+abstract class Generator implements GeneratorInterface
 {
+    /**
+     * return data
+     */
+    public function getData()
+    {
 
+    }
 }
