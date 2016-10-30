@@ -7,8 +7,5 @@ abstract class Generator implements GeneratorInterface
     /**
      * return data
      */
-    public function getData()
-    {
-
-    }
+    abstract public function getData();
 }
